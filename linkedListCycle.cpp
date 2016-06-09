@@ -1,10 +1,10 @@
 
 //function to check if a linkedList contains a cycle
 
-struct node
+struct ListNode
 {
 int val;
-node* next;
+ListNode* next;
 };
 
 bool hasCycle(ListNode* head)
